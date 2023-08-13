@@ -546,6 +546,9 @@ video {
 .mt-8 {
   margin-top: 2rem;
 }
+.mr-2 {
+  margin-right: 0.5rem;
+}
 .flex {
   display: flex;
 }
@@ -569,6 +572,9 @@ video {
 }
 .w-\[90\%\] {
   width: 90%;
+}
+.w-\[87\%\] {
+  width: 87%;
 }
 .cursor-pointer {
   cursor: pointer;
