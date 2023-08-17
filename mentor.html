@@ -16,7 +16,6 @@
                 <div class="text-[3rem]  font-semibold flex md:justify-center">Evaluation Result</div>
                 <div class="text-sm px-1 font-normal flex md:justify-center text-slate-600">Miniproject Approval Status & Marks</div>
             </div>
-
             <div class="main-content my-8 px-6 flex flex-col md:flex-row sm:justify-center ">
                 <div class="group-details rounded-xl sm:w-[400px] bg-white p-5">
                     <div class="heading border border-b-1 border-t-0 border-x-0 py-3">
@@ -87,19 +86,19 @@
                     <div class="member-details border p-4 rounded-xl">
                         <div class="members flex flex-row ">
                             <div class="member-label w-[40%]  py-2  text-slate-500">Innovation</div>
-                            <div class="member-value w-[60%] font-normal flex flex-row justify-between  rounded-lg"><input type="text" class="bg-[#F3F5F7] w-[70%]  sm:w-[80%] md:w-[90%] px-3 py-2 rounded-lg "><span class="text-end text-slate-700 w-[30%] sm:w-[20%] md:w-[10%] px-3 py-2 rounded-r-lg">/20</span></div>
+                            <div class="member-value w-[60%] font-normal flex flex-row justify-between  rounded-lg"><input type="text" id="innovation" class="bg-[#F3F5F7] w-[70%]  sm:w-[80%] md:w-[90%] px-3 py-2 rounded-lg "><span class="text-end text-slate-700 w-[30%] sm:w-[20%] md:w-[10%] px-3 py-2 rounded-r-lg">/20</span></div>
                         </div>
                         <div class="members flex flex-row  text-sm py-2">
                             <div class="member-label w-[40%] py-2 text-slate-500">Knowledge</div>
-                            <div class="member-value w-[60%] font-normal flex flex-row justify-between rounded-lg"><input type="text" class="bg-[#F3F5F7] w-[70%] sm:w-[80%] md:w-[90%] px-3 py-2 rounded-lg "><span class="text-end text-slate-700 w-[30%] sm:w-[20%] md:w-[10%] px-3 py-2 rounded-r-lg">/20</span></div>
+                            <div class="member-value w-[60%] font-normal flex flex-row justify-between rounded-lg"><input type="text" id="knowledge" class="bg-[#F3F5F7] w-[70%] sm:w-[80%] md:w-[90%] px-3 py-2 rounded-lg "><span class="text-end text-slate-700 w-[30%] sm:w-[20%] md:w-[10%] px-3 py-2 rounded-r-lg">/20</span></div>
                         </div>
                         <div class="members flex flex-row text-sm py-2 ">
                             <div class="member-label w-[40%] py-2 text-slate-500">Uniqueness</div>
-                            <div class="member-value w-[60%] font-normal flex flex-row justify-between rounded-lg"><input type="text" class="bg-[#F3F5F7] w-[70%] sm:w-[80%] md:w-[90%] px-3 py-2 rounded-lg "><span class=" text-end text-slate-700 w-[30%] sm:w-[20%] md:w-[10%] px-3 py-2 rounded-r-lg">/10</span></div>
+                            <div class="member-value w-[60%] font-normal flex flex-row justify-between rounded-lg"><input type="text" id="uniqueness" class="bg-[#F3F5F7] w-[70%] sm:w-[80%] md:w-[90%] px-3 py-2 rounded-lg "><span class=" text-end text-slate-700 w-[30%] sm:w-[20%] md:w-[10%] px-3 py-2 rounded-r-lg">/10</span></div>
                         </div>
                         <div class="total mt-2 flex flex-row justify-between">
-                            <span class="px-2 py-2 rounded-lg text-sm bg-gray-600 text-white">Total: XX/50</span>
-                            <button class="px-2 py-2 rounded-lg text-sm bg-gray-600 text-white">Submit</button>
+                            <span id="totalMarks" class="px-2 py-2 rounded-lg text-sm bg-gray-600 text-white">Total</span>
+                            <button class="px-2 py-2 rounded-lg text-sm bg-gray-600 text-white" onclick="">Submit</button>
                         </div>
 
                     </div>
